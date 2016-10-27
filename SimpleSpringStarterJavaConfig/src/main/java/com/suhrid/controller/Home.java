@@ -13,6 +13,6 @@ public class Home {
     @RequestMapping(value = "/")
     @ResponseBody
     public String homePage() {
-        return "hello";
+        return "Welcome to simple spring starter app";
     }
 }
